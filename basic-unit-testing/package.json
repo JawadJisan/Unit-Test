@@ -1,0 +1,20 @@
+{
+   "name": "async-example",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "type": "module",
+   "scripts": {
+      "test": "vitest --reporter verbose --run --environment jsdom"
+   },
+   "dependencies": {
+      "crypto-js": "^4.1.1",
+      "http-server": "^14.1.0",
+      "jsonwebtoken": "^9.0.0"
+   },
+   "devDependencies": {
+      "happy-dom": "^9.9.2",
+      "jsdom": "^21.1.2",
+      "vitest": "^0.29.8"
+   }
+}
